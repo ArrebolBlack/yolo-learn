@@ -1,0 +1,9 @@
+# 自定义数据集配置
+path: /vepfs-mlp2/queue010/20252203765/yolo_learn/my_dataset
+train: images/train
+val: images/val
+
+nc: 2
+names:
+  0: person
+  1: bus
